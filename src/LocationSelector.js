@@ -74,7 +74,7 @@ function LocationSelector() {
 
       {selectedCity && (
         <p>
-          You selected: {selectedCity}, {selectedState}, {selectedCountry}
+          You selected {selectedCity}, {selectedState}, {selectedCountry}
         </p>
       )}
     </div>
